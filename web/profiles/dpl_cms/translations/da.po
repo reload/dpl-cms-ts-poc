@@ -13,6 +13,6 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: modules/custom/dpl_react_apps/dpl_react_apps.module:31
-msgid "New string, man"
+msgid "New string, 1449"
 msgstr ""
 
