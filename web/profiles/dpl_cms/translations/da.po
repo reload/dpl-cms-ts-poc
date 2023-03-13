@@ -14,7 +14,7 @@ msgstr ""
 
 #: modules/custom/dpl_react_apps/dpl_react_apps.module:31
 msgctxt "Is context used"
-msgid "New string 2, 1449"
+msgid "New string 1, 1449"
 msgstr ""
 
 #: modules/custom/dpl_react_apps/dpl_react_apps.module:32
