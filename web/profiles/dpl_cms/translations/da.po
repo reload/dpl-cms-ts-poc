@@ -16,3 +16,7 @@ msgstr ""
 msgid "New string, 1449"
 msgstr ""
 
+
+#: modules/custom/dpl_react_apps/dpl_react_apps.module:32
+msgid "New string 2, 1449"
+msgstr ""
