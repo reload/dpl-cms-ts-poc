@@ -12,6 +12,12 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
+#: modules/custom/dpl_react_apps/dpl_react_apps.module:31
+msgctxt "Is context used"
+msgid "New string 2, 1449"
+msgstr ""
+
 #: modules/custom/dpl_react_apps/dpl_react_apps.module:32
+msgctxt "Is context used"
 msgid "New string 2, 1449"
 msgstr ""
