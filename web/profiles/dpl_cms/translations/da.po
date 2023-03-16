@@ -806,3 +806,7 @@ msgstr ""
 
 msgid "Custom theme for the Danish Public Libraries"
 msgstr ""
+
+msgctxt "Mikkel Test"
+msgid "Mikkel tetser for sindsygt"
+msgstr ""
