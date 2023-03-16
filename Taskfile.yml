@@ -32,6 +32,10 @@ vars:
   DIR_RESTORE_DATABASE: 'restore/database'
   # Directory with lagoon backup files.
   DIR_RESTORE_FILES: 'restore/files'
+  # Directory with translations.
+  PO_DIR: "profiles/dpl_cms/translations"
+  # Default language
+  LANGUAGE: "da"
 
   # Ports and host names:
   # Using ports exposed on localhost is important.
@@ -285,13 +289,22 @@ tasks:
   translations:build:
     desc: Generate translations
     cmds:
-    # Generate translations for custom modules
-      - task dev:cli -- drush potion:generate $LANGUAGE modules/custom/ $PO_DIR --recursive --default-write-mode=override
+     # Generate translations for custom modules
+      - task dev:cli -- drush potion:generate $LANGUAGE modules/custom/ {{ .PO_DIR }} --recursive --default-write-mode=override
     # Generate translations for custom themes
-      - task dev:cli -- drush potion:generate $LANGUAGE themes/custom/ $PO_DIR --recursive --default-write-mode=merge
+      - task dev:cli -- drush potion:generate $LANGUAGE themes/custom/ {{ .PO_DIR }} --recursive --default-write-mode=merge
     # Fill translations from db
-      - task dev:cli -- drush potion:fill $LANGUAGE $PO_DIR/$LANGUAGE.po
+      - task dev:cli -- drush potion:fill $LANGUAGE {{ .PO_DIR }}/$LANGUAGE.po
     # Default language if nothing else is set:
     env:
-      LANGUAGE: "da"
-      PO_DIR: "profiles/dpl_cms/translations"
+      LANGUAGE: "{{ .LANGUAGE }}"
+
+  translations:commit:
+    desc: Commit translations
+    cmds:
+    # Fill translations from db
+      - task dev:cli -- sh dev-scripts/cli-commit-translations.sh $LANGUAGE
+      - git push origin translation-gh-action-test
+    # Default language if nothing else is set:
+    env:
+      LANGUAGE: "{{ .LANGUAGE }}"
