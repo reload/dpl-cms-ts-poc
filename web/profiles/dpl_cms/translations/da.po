@@ -810,3 +810,7 @@ msgstr ""
 msgctxt "Mikkel Test"
 msgid "Mikkel tetser for sindsygt"
 msgstr ""
+
+msgctxt "Mikkel Test"
+msgid "Mikkel tetser for sindsygt man"
+msgstr ""
