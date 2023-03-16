@@ -282,7 +282,7 @@ tasks:
       - task: source:build
       - task: source:push
 
-  source:translations:build:
+  translations:build:
     desc: Generate translations
     cmds:
     # Generate translations for custom modules
