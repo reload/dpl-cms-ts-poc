@@ -30,6 +30,7 @@ jobs:
         git config user.name github-actions
         git config user.email github-actions@github.com
         git add --force web/profiles/dpl_cms/translations/da.po
+        ls -lah web/profiles/dpl_cms/translations/da.po
         (git commit -m 'Updating da.po with translations' && echo '::set-output name=changed::true') || echo '::set-output name=changed::false'
     - name: Push rebuild dist
       if: ${{ steps.commit_translations.outputs.changed == 'true' }}
