@@ -19,8 +19,7 @@ jobs:
     - name: Setup site
       run: task ci:reset
     - name: Scan translations
-    # Todo: Do not continue if no new translations were found.
-      run: LANGUAGE=da task source:translations:build
+      run: LANGUAGE=da task translations:build
     - name: Commit translations
       id: commit_translations
       run: |
