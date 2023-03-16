@@ -27,6 +27,7 @@ jobs:
     - name: Commit translations
       id: commit_translations
       run: |
+        ls -lah web/profiles/dpl_cms/translations/da.po
         git config user.name github-actions
         git config user.email github-actions@github.com
         git add --force web/profiles/dpl_cms/translations/da.po
