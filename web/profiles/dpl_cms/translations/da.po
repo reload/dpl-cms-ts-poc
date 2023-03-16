@@ -3,6 +3,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2023-03-16 19:23+0000\n"
+"PO-Revision-Date: 2023-03-16 19:23+0000\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
 "MIME-Version: 1.0\n"
@@ -10,65 +12,79 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-msgid "React DDB Library"
+msgid "Domain"
+msgstr "Domæne"
+
+msgid ""
+"Specify the Tag Integration domain if the JavaScript-file should be "
+"loaded from the Mapp server."
 msgstr ""
 
-msgid "Library is present"
+msgid "Id"
+msgstr "Id"
+
+msgid ""
+"Enter your Tag Integration customer ID if the JavaScript-file should "
+"be loaded from the Mapp server."
 msgstr ""
 
-msgid "DDB React library is missing (@dir)"
+msgid "Library token"
 msgstr ""
 
-msgid "configured"
-msgstr ""
-
-msgid "This configuration form is for administering proxy url generation."
-msgstr ""
-
-msgid "Proxy server URL prefix"
+msgid "Token available"
 msgstr ""
 
 msgid ""
-"The prefix to use for proxy server URLs. This is the part of the URL\n"
-"        that comes before the hostname"
+"No valid token available. <a href=\":url\">Run cron</a> to retrieve a "
+"new token."
 msgstr ""
 
-msgid "Hostnames"
+msgid "Search button"
 msgstr ""
 
-msgid "Host configuration"
+msgid "Search header input"
 msgstr ""
 
-msgid "Hostname"
+msgid "Animated series"
 msgstr ""
 
-msgid "Replacement %configured"
+msgid "Audio books"
 msgstr ""
 
-msgid "Regular expression"
+msgid "Books"
 msgstr ""
 
-msgid ""
-"Use regular expression to substitut parts of the url, e.g. \"<em>%regex</"
-"em>\"."
+msgid "E-books"
 msgstr ""
 
-msgid "Replacement"
+msgid "Movies"
 msgstr ""
 
-msgid "The replacement value for the regular expression."
+msgid "Games"
 msgstr ""
 
-msgid "Do not use proxy prefix for this hostname"
+msgid "Music"
 msgstr ""
 
-msgid "Remove this"
+msgid "et al."
 msgstr ""
 
-msgid "Add one more"
+msgid "in"
 msgstr ""
 
-msgid "Submit"
+msgid "Start typing in order to search"
+msgstr ""
+
+msgid "Loading"
+msgstr ""
+
+msgid "Author"
+msgstr ""
+
+msgid "Topic"
+msgstr ""
+
+msgid "Work"
 msgstr ""
 
 msgid "+ more filters"
@@ -152,6 +168,10 @@ msgstr ""
 msgid "Unavailable"
 msgstr ""
 
+msgctxt "Mikkel Test"
+msgid "Mikkel tetser for sindsygt man"
+msgstr ""
+
 msgid "Already reserved"
 msgstr ""
 
@@ -174,7 +194,7 @@ msgid "Choose one"
 msgstr ""
 
 msgid "Close"
-msgstr ""
+msgstr "Luk"
 
 msgid "Contributors"
 msgstr ""
@@ -189,7 +209,7 @@ msgid "Days"
 msgstr ""
 
 msgid "Description"
-msgstr ""
+msgstr "Beskrivelse"
 
 msgid "Edition"
 msgstr ""
@@ -204,7 +224,7 @@ msgid "Isbn"
 msgstr ""
 
 msgid "Language"
-msgstr ""
+msgstr "Sprog"
 
 msgid "Original title"
 msgstr ""
@@ -219,7 +239,7 @@ msgid "Scope"
 msgstr ""
 
 msgid "Type"
-msgstr ""
+msgstr "Type"
 
 msgid "Details of the material"
 msgstr ""
@@ -228,9 +248,6 @@ msgid "Details"
 msgstr ""
 
 msgid "Editions"
-msgstr ""
-
-msgid "et al."
 msgstr ""
 
 msgid "Fiction/nonfiction"
@@ -305,9 +322,6 @@ msgstr ""
 msgid "Listen online"
 msgstr ""
 
-msgid "Loading"
-msgstr ""
-
 msgid "Log in to read the review"
 msgstr ""
 
@@ -341,8 +355,8 @@ msgid "Missing data"
 msgstr ""
 
 msgid ""
-"If you want to receive notifications by e-mail, you can enter or change the "
-"desired e-mail here."
+"If you want to receive notifications by e-mail, you can enter or "
+"change the desired e-mail here."
 msgstr ""
 
 msgid "Change email"
@@ -352,7 +366,7 @@ msgid "Type in email"
 msgstr ""
 
 msgid "Email"
-msgstr ""
+msgstr "E-mail"
 
 msgid "Set date for when your interest for the material will expire."
 msgstr ""
@@ -367,7 +381,8 @@ msgid "Choose pickup library"
 msgstr ""
 
 msgid ""
-"If you want to receive SMS, you can enter or change your phone number here."
+"If you want to receive SMS, you can enter or change your phone number "
+"here."
 msgstr ""
 
 msgid "Change phone number"
@@ -404,7 +419,8 @@ msgid "Order digital copy description text"
 msgstr ""
 
 msgid ""
-"An error occurred while ordering the digital copy. Please try again later."
+"An error occurred while ordering the digital copy. Please try again "
+"later."
 msgstr ""
 
 msgid "Error ordering digital copy"
@@ -464,8 +480,8 @@ msgid "The material is available and is now reserved for you!"
 msgstr ""
 
 msgid ""
-"Material is available and you will get a message when it is ready for pickup "
-"- pickup at @branch"
+"Material is available and you will get a message when it is ready for "
+"pickup - pickup at @branch"
 msgstr ""
 
 msgid "reservations for this material"
@@ -481,7 +497,7 @@ msgid "Reviews"
 msgstr ""
 
 msgid "Save"
-msgstr ""
+msgstr "Gem"
 
 msgid "See online"
 msgstr ""
@@ -510,46 +526,120 @@ msgstr ""
 msgid "You have borrowed"
 msgstr ""
 
-msgid "Search button"
+msgid "Configuration file"
 msgstr ""
 
-msgid "Search header input"
+msgid "Select a configuration file in YAML format to upload."
 msgstr ""
 
-msgid "Animated series"
+msgid "Upload"
 msgstr ""
 
-msgid "Audio books"
+msgid "Unable to handle the uploaded file"
 msgstr ""
 
-msgid "Books"
+msgid "Unable to parse YAML file: %reason"
 msgstr ""
 
-msgid "E-books"
+msgid "Installed modules: %modules_list"
 msgstr ""
 
-msgid "Movies"
+msgid "Uninstalled modules: %modules_list"
 msgstr ""
 
-msgid "Games"
+msgid "Adgangsplatformen"
 msgstr ""
 
-msgid "Music"
+msgid "Integration configured"
 msgstr ""
 
-msgid "in"
+msgid "Authorization endpoint"
 msgstr ""
 
-msgid "Start typing in order to search"
+msgid "Token endpoint"
 msgstr ""
 
-msgid "Author"
+msgid "UserInfo endpoint"
 msgstr ""
 
-msgid "Topic"
+msgid "Logout endpoint"
 msgstr ""
 
-msgid "Work"
+msgid "Agency ID"
+msgstr ""
+
+msgid "React DDB Library"
+msgstr ""
+
+msgid "Library is present"
+msgstr ""
+
+msgid "DDB React library is missing (@dir)"
+msgstr ""
+
+msgid "configured"
+msgstr ""
+
+msgid "This configuration form is for administering proxy url generation."
+msgstr ""
+
+msgid "Proxy server URL prefix"
+msgstr ""
+
+msgid ""
+"The prefix to use for proxy server URLs. This is the part of the "
+"URL\n"
+"        that comes before the hostname"
+msgstr ""
+
+msgid "Hostnames"
+msgstr ""
+
+msgid "Host configuration"
+msgstr ""
+
+msgid "Hostname"
+msgstr "Værtsnavn"
+
+msgid "Replacement %configured"
+msgstr ""
+
+msgid "Regular expression"
+msgstr "Regulært udtryk"
+
+msgid ""
+"Use regular expression to substitut parts of the url, e.g. "
+"\"<em>%regex</em>\"."
+msgstr ""
+
+msgid "Replacement"
+msgstr ""
+
+msgid "The replacement value for the regular expression."
+msgstr ""
+
+msgid "Do not use proxy prefix for this hostname"
+msgstr ""
+
+msgid "Remove this"
+msgstr ""
+
+msgid "Add one more"
+msgstr ""
+
+msgid "Submit"
+msgstr ""
+
+msgid "Basic settings"
+msgstr ""
+
+msgid "FBS service url"
+msgstr ""
+
+msgid "The url \"%url\" is not a valid URL."
+msgstr ""
+
+msgid "Publizon service url"
 msgstr ""
 
 msgid "Reservations"
@@ -583,189 +673,35 @@ msgid "Excluded branches"
 msgstr ""
 
 msgid ""
-"Select which branches should be excluded in different parts of the system."
+"Select which branches should be excluded in different parts of the "
+"system."
 msgstr ""
 
 msgid "Search results"
 msgstr ""
 
 msgid ""
-"Holdings belonging to the selected branches will not be shown in search "
-"results."
+"Holdings belonging to the selected branches will not be shown in "
+"search results."
 msgstr ""
 
 msgid "Availability"
 msgstr ""
 
 msgid ""
-"Holdings belonging to the selected branches will not considered when showing "
-"work availability."
+"Holdings belonging to the selected branches will not considered when "
+"showing work availability."
 msgstr ""
 
 msgid ""
-"Selected branches will not be available as pickup locations for reservations."
-msgstr ""
-
-msgid "The url \"%url\" is not a valid URL."
-msgstr ""
-
-msgid "Configuration file"
-msgstr ""
-
-msgid "Select a configuration file in YAML format to upload."
-msgstr ""
-
-msgid "Upload"
-msgstr ""
-
-msgid "Unable to handle the uploaded file"
-msgstr ""
-
-msgid "Unable to parse YAML file: %reason"
-msgstr ""
-
-msgid "Installed modules: %modules_list"
-msgstr ""
-
-msgid "Uninstalled modules: %modules_list"
-msgstr ""
-
-msgid "Basic settings"
-msgstr ""
-
-msgid "FBS service url"
-msgstr ""
-
-msgid "Publizon service url"
-msgstr ""
-
-msgid "Domain"
-msgstr ""
-
-msgid ""
-"Specify the Tag Integration domain if the JavaScript-file should be loaded "
-"from the Mapp server."
-msgstr ""
-
-msgid "Id"
-msgstr ""
-
-msgid ""
-"Enter your Tag Integration customer ID if the JavaScript-file should be "
-"loaded from the Mapp server."
-msgstr ""
-
-msgid "Library token"
-msgstr ""
-
-msgid "Token available"
-msgstr ""
-
-msgid ""
-"No valid token available. <a href=\":url\">Run cron</a> to retrieve a new "
-"token."
-msgstr ""
-
-msgid "Authorization endpoint"
-msgstr ""
-
-msgid "Token endpoint"
-msgstr ""
-
-msgid "UserInfo endpoint"
-msgstr ""
-
-msgid "Logout endpoint"
-msgstr ""
-
-msgid "Agency ID"
-msgstr ""
-
-msgid "Adgangsplatformen"
-msgstr ""
-
-msgid "Integration configured"
-msgstr ""
-
-msgid "Generate proxy url"
+"Selected branches will not be available as pickup locations for "
+"reservations."
 msgstr ""
 
 msgid "Get campaign matching search result facets"
 msgstr ""
 
-msgid "DPL React User Token"
-msgstr ""
-
-msgid "DDB React"
-msgstr ""
-
-msgid ""
-"General handling of importing and using the DDB react components as libraries"
-msgstr ""
-
-msgid "DPL Url Proxy"
-msgstr ""
-
-msgid "Module for generating specially formatted external urls"
-msgstr ""
-
-msgid "Configure proxy urls"
-msgstr ""
-
-msgid "DPL React Apps"
-msgstr ""
-
-msgid "For integration of dpl_react apps on the site."
-msgstr ""
-
-msgid "Library Agency"
-msgstr ""
-
-msgid "General Settings"
-msgstr ""
-
-msgid "DPL Library Agency"
-msgstr ""
-
-msgid "Module for handling library agency configuration and functionality"
-msgstr ""
-
-msgid "Upload configuration"
-msgstr ""
-
-msgid "Configuration Import"
-msgstr ""
-
-msgid "Import configuration from YAML files."
-msgstr ""
-
-msgid "FBS settings"
-msgstr ""
-
-msgid "DPL FBS"
-msgstr ""
-
-msgid "Handle FBS configuration"
-msgstr ""
-
-msgid "dpl_campaign"
-msgstr ""
-
-msgid ""
-"A module that deliveres possibility for campaign CRUD and integration with "
-"Dpl React Apps"
-msgstr ""
-
-msgid "Publizon settings"
-msgstr ""
-
-msgid "DPL Publizon"
-msgstr ""
-
-msgid "Handle publizon configuration"
-msgstr ""
-
-msgid "Mapp Intelligence settings"
+msgid "Generate proxy url"
 msgstr ""
 
 msgid "Mapp Intelligence"
@@ -774,16 +710,42 @@ msgstr ""
 msgid "Integration with Mapp Intelligence to track site usage."
 msgstr ""
 
-msgid "Example content for DPL CMS"
+msgid "Mapp Intelligence settings"
 msgstr ""
 
-msgid "Provides example content for demo sites."
+msgid "dpl_campaign"
+msgstr ""
+
+msgid ""
+"A module that deliveres possibility for campaign CRUD and integration "
+"with Dpl React Apps"
 msgstr ""
 
 msgid "DPL Library Token"
 msgstr ""
 
 msgid "Handles fetching and storage of a library token"
+msgstr ""
+
+msgid "DPL React Apps"
+msgstr ""
+
+msgid "For integration of dpl_react apps on the site."
+msgstr ""
+
+msgid "Example content for DPL CMS"
+msgstr ""
+
+msgid "Provides example content for demo sites."
+msgstr ""
+
+msgid "Configuration Import"
+msgstr ""
+
+msgid "Import configuration from YAML files."
+msgstr ""
+
+msgid "Upload configuration"
 msgstr ""
 
 msgid "DPL Login"
@@ -798,6 +760,56 @@ msgstr ""
 msgid "Login via Adgangsplatformen"
 msgstr ""
 
+msgid "DPL React User Token"
+msgstr ""
+
+msgid "DDB React"
+msgstr ""
+
+msgid ""
+"General handling of importing and using the DDB react components as "
+"libraries"
+msgstr ""
+
+msgid "Configure proxy urls"
+msgstr ""
+
+msgid "DPL Url Proxy"
+msgstr ""
+
+msgid "Module for generating specially formatted external urls"
+msgstr ""
+
+msgid "DPL FBS"
+msgstr ""
+
+msgid "Handle FBS configuration"
+msgstr ""
+
+msgid "FBS settings"
+msgstr ""
+
+msgid "Publizon settings"
+msgstr ""
+
+msgid "DPL Publizon"
+msgstr ""
+
+msgid "Handle publizon configuration"
+msgstr ""
+
+msgid "DPL Library Agency"
+msgstr ""
+
+msgid "Module for handling library agency configuration and functionality"
+msgstr ""
+
+msgid "Library Agency"
+msgstr ""
+
+msgid "General Settings"
+msgstr ""
+
 msgid "Skip to main content"
 msgstr ""
 
@@ -807,10 +819,3 @@ msgstr ""
 msgid "Custom theme for the Danish Public Libraries"
 msgstr ""
 
-msgctxt "Mikkel Test"
-msgid "Mikkel tetser for sindsygt"
-msgstr ""
-
-msgctxt "Mikkel Test"
-msgid "Mikkel tetser for sindsygt man"
-msgstr ""
