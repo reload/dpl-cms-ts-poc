@@ -3,8 +3,6 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2023-03-17 06:21+0000\n"
-"PO-Revision-Date: 2023-03-17 06:21+0000\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
 "MIME-Version: 1.0\n"
@@ -31,8 +29,7 @@ msgid "Proxy server URL prefix"
 msgstr ""
 
 msgid ""
-"The prefix to use for proxy server URLs. This is the part of the "
-"URL\n"
+"The prefix to use for proxy server URLs. This is the part of the URL\n"
 "        that comes before the hostname"
 msgstr ""
 
@@ -43,17 +40,17 @@ msgid "Host configuration"
 msgstr ""
 
 msgid "Hostname"
-msgstr "Værtsnavn"
+msgstr ""
 
 msgid "Replacement %configured"
 msgstr ""
 
 msgid "Regular expression"
-msgstr "Regulært udtryk"
+msgstr ""
 
 msgid ""
-"Use regular expression to substitut parts of the url, e.g. "
-"\"<em>%regex</em>\"."
+"Use regular expression to substitut parts of the url, e.g. \"<em>%regex</"
+"em>\"."
 msgstr ""
 
 msgid "Replacement"
@@ -181,7 +178,7 @@ msgid "Choose one"
 msgstr ""
 
 msgid "Close"
-msgstr "Luk"
+msgstr ""
 
 msgid "Contributors"
 msgstr ""
@@ -196,7 +193,7 @@ msgid "Days"
 msgstr ""
 
 msgid "Description"
-msgstr "Beskrivelse"
+msgstr ""
 
 msgid "Edition"
 msgstr ""
@@ -211,7 +208,7 @@ msgid "Isbn"
 msgstr ""
 
 msgid "Language"
-msgstr "Sprog"
+msgstr ""
 
 msgid "Original title"
 msgstr ""
@@ -226,7 +223,7 @@ msgid "Scope"
 msgstr ""
 
 msgid "Type"
-msgstr "Type"
+msgstr ""
 
 msgid "Details of the material"
 msgstr ""
@@ -348,8 +345,8 @@ msgid "Missing data"
 msgstr ""
 
 msgid ""
-"If you want to receive notifications by e-mail, you can enter or "
-"change the desired e-mail here."
+"If you want to receive notifications by e-mail, you can enter or change the "
+"desired e-mail here."
 msgstr ""
 
 msgid "Change email"
@@ -359,7 +356,7 @@ msgid "Type in email"
 msgstr ""
 
 msgid "Email"
-msgstr "E-mail"
+msgstr ""
 
 msgid "Set date for when your interest for the material will expire."
 msgstr ""
@@ -374,8 +371,7 @@ msgid "Choose pickup library"
 msgstr ""
 
 msgid ""
-"If you want to receive SMS, you can enter or change your phone number "
-"here."
+"If you want to receive SMS, you can enter or change your phone number here."
 msgstr ""
 
 msgid "Change phone number"
@@ -412,8 +408,7 @@ msgid "Order digital copy description text"
 msgstr ""
 
 msgid ""
-"An error occurred while ordering the digital copy. Please try again "
-"later."
+"An error occurred while ordering the digital copy. Please try again later."
 msgstr ""
 
 msgid "Error ordering digital copy"
@@ -473,8 +468,8 @@ msgid "The material is available and is now reserved for you!"
 msgstr ""
 
 msgid ""
-"Material is available and you will get a message when it is ready for "
-"pickup - pickup at @branch"
+"Material is available and you will get a message when it is ready for pickup "
+"- pickup at @branch"
 msgstr ""
 
 msgid "reservations for this material"
@@ -490,7 +485,7 @@ msgid "Reviews"
 msgstr ""
 
 msgid "Save"
-msgstr "Gem"
+msgstr ""
 
 msgid "See online"
 msgstr ""
@@ -592,29 +587,27 @@ msgid "Excluded branches"
 msgstr ""
 
 msgid ""
-"Select which branches should be excluded in different parts of the "
-"system."
+"Select which branches should be excluded in different parts of the system."
 msgstr ""
 
 msgid "Search results"
 msgstr ""
 
 msgid ""
-"Holdings belonging to the selected branches will not be shown in "
-"search results."
+"Holdings belonging to the selected branches will not be shown in search "
+"results."
 msgstr ""
 
 msgid "Availability"
 msgstr ""
 
 msgid ""
-"Holdings belonging to the selected branches will not considered when "
-"showing work availability."
+"Holdings belonging to the selected branches will not considered when showing "
+"work availability."
 msgstr ""
 
 msgid ""
-"Selected branches will not be available as pickup locations for "
-"reservations."
+"Selected branches will not be available as pickup locations for reservations."
 msgstr ""
 
 msgid "The url \"%url\" is not a valid URL."
@@ -651,19 +644,19 @@ msgid "Publizon service url"
 msgstr ""
 
 msgid "Domain"
-msgstr "Domæne"
+msgstr ""
 
 msgid ""
-"Specify the Tag Integration domain if the JavaScript-file should be "
-"loaded from the Mapp server."
+"Specify the Tag Integration domain if the JavaScript-file should be loaded "
+"from the Mapp server."
 msgstr ""
 
 msgid "Id"
-msgstr "Id"
+msgstr ""
 
 msgid ""
-"Enter your Tag Integration customer ID if the JavaScript-file should "
-"be loaded from the Mapp server."
+"Enter your Tag Integration customer ID if the JavaScript-file should be "
+"loaded from the Mapp server."
 msgstr ""
 
 msgid "Library token"
@@ -673,8 +666,8 @@ msgid "Token available"
 msgstr ""
 
 msgid ""
-"No valid token available. <a href=\":url\">Run cron</a> to retrieve a "
-"new token."
+"No valid token available. <a href=\":url\">Run cron</a> to retrieve a new "
+"token."
 msgstr ""
 
 msgid "Authorization endpoint"
@@ -711,8 +704,7 @@ msgid "DDB React"
 msgstr ""
 
 msgid ""
-"General handling of importing and using the DDB react components as "
-"libraries"
+"General handling of importing and using the DDB react components as libraries"
 msgstr ""
 
 msgid "DPL Url Proxy"
@@ -764,8 +756,8 @@ msgid "dpl_campaign"
 msgstr ""
 
 msgid ""
-"A module that deliveres possibility for campaign CRUD and integration "
-"with Dpl React Apps"
+"A module that deliveres possibility for campaign CRUD and integration with "
+"Dpl React Apps"
 msgstr ""
 
 msgid "Publizon settings"
@@ -818,4 +810,3 @@ msgstr ""
 
 msgid "Custom theme for the Danish Public Libraries"
 msgstr ""
-

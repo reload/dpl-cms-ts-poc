@@ -3,8 +3,6 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2023-03-17 06:21+0000\n"
-"PO-Revision-Date: 2023-03-17 06:21+0000\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
 "MIME-Version: 1.0\n"
@@ -43,13 +41,13 @@ msgid "Host configuration"
 msgstr ""
 
 msgid "Hostname"
-msgstr "Værtsnavn"
+msgstr ""
 
 msgid "Replacement %configured"
 msgstr ""
 
 msgid "Regular expression"
-msgstr "Regulært udtryk"
+msgstr ""
 
 msgid ""
 "Use regular expression to substitut parts of the url, e.g. "
@@ -181,7 +179,7 @@ msgid "Choose one"
 msgstr ""
 
 msgid "Close"
-msgstr "Luk"
+msgstr ""
 
 msgid "Contributors"
 msgstr ""
@@ -196,7 +194,7 @@ msgid "Days"
 msgstr ""
 
 msgid "Description"
-msgstr "Beskrivelse"
+msgstr ""
 
 msgid "Edition"
 msgstr ""
@@ -211,7 +209,7 @@ msgid "Isbn"
 msgstr ""
 
 msgid "Language"
-msgstr "Sprog"
+msgstr ""
 
 msgid "Original title"
 msgstr ""
@@ -226,7 +224,7 @@ msgid "Scope"
 msgstr ""
 
 msgid "Type"
-msgstr "Type"
+msgstr ""
 
 msgid "Details of the material"
 msgstr ""
@@ -359,7 +357,7 @@ msgid "Type in email"
 msgstr ""
 
 msgid "Email"
-msgstr "E-mail"
+msgstr ""
 
 msgid "Set date for when your interest for the material will expire."
 msgstr ""
@@ -490,7 +488,7 @@ msgid "Reviews"
 msgstr ""
 
 msgid "Save"
-msgstr "Gem"
+msgstr ""
 
 msgid "See online"
 msgstr ""
@@ -651,7 +649,7 @@ msgid "Publizon service url"
 msgstr ""
 
 msgid "Domain"
-msgstr "Domæne"
+msgstr ""
 
 msgid ""
 "Specify the Tag Integration domain if the JavaScript-file should be "
@@ -659,7 +657,7 @@ msgid ""
 msgstr ""
 
 msgid "Id"
-msgstr "Id"
+msgstr ""
 
 msgid ""
 "Enter your Tag Integration customer ID if the JavaScript-file should "
@@ -808,14 +806,5 @@ msgid "Dpl Login Logout Route"
 msgstr ""
 
 msgid "Login via Adgangsplatformen"
-msgstr ""
-
-msgid "Skip to main content"
-msgstr ""
-
-msgid "Novel"
-msgstr ""
-
-msgid "Custom theme for the Danish Public Libraries"
 msgstr ""
 
