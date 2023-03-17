@@ -19,6 +19,12 @@ jobs:
     - uses: actions/checkout@master
       with:
         fetch-depth: 0
+    - name: debugging
+      run: |
+        echo "container user"
+        docker compose run --rm cli sh -c "id"
+        echo "host user"
+        id
     - name: Install go-task
       uses: arduino/setup-task@v1
       with:
