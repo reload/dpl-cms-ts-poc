@@ -29,12 +29,12 @@ jobs:
     - name: Commit translations
       uses: stefanzweifel/git-auto-commit-action@v4
       with:
-        file_pattern: './web/profiles/dpl_cms/translation_source/*.po'
+        file_pattern: './web/profiles/dpl_cms/translations/*.po'
         commit_message: New translations were found
     - name: Make Poeditor look for changes
       uses: distributhor/workflow-webhook@v2
       env:
-        webhook_url: https://api.poeditor.com/webhooks/2a244c050c
+        webhook_url: https://api.poeditor.com/webhooks/e43dc32eaf
         webhook_secret: 'xxxx'
 
   PublishToGithubPages:
