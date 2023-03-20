@@ -6,7 +6,8 @@ on:
     branches:
       - translation-gh-action-test
 jobs:
-  build:
+
+  SendToPoeditor:
     runs-on: ubuntu-latest
     permissions:
       # Give the default GITHUB_TOKEN write permission to commit and push the
@@ -29,14 +30,22 @@ jobs:
       with:
         file_pattern: './web/profiles/dpl_cms/translation_source/*.po'
         commit_message: New translations were found
+    - name: Make Poeditor look for changes
+      uses: distributhor/workflow-webhook@v2
+      env:
+        webhook_url: https://api.poeditor.com/webhooks/2a244c050c
+        webhook_secret: 'xxxx'
+
+  PublishToGithubPages:
+    runs-on: ubuntu-latest
+    if: ${{ contains(github.event.head_commit.message, 'POEditor.com') }}
+    steps:
+    - uses: actions/checkout@master
+      with:
+        fetch-depth: 0
     - name: Publish translations to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./web/profiles/dpl_cms/translations
         destination_dir: translations
-    - name: Make Poeditor look for changes
-      uses: distributhor/workflow-webhook@v2
-      env:
-        webhook_url: https://api.poeditor.com/webhooks/2a244c050c
-        webhook_secret: 'xxxx'
