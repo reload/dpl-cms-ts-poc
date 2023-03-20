@@ -172,6 +172,10 @@ msgctxt "Translation test"
 msgid "Fifth translation 20:49"
 msgstr ""
 
+msgctxt "Translation test"
+msgid "Sixth translation 20:58"
+msgstr ""
+
 msgid "Already reserved"
 msgstr ""
 
