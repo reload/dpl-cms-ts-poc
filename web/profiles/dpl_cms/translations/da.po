@@ -1075,5 +1075,5 @@ msgstr ""
 #: 
 msgctxt "Translation test"
 msgid "Tenth translation 00:40"
-msgstr "Tiende oversættelse 00:40"
+msgstr "Tiende oversættelse 00:51"
 
