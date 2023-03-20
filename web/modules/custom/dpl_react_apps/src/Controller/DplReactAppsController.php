@@ -162,7 +162,8 @@ class DplReactAppsController extends ControllerBase {
     $test2 = $this->t('Here is a another new translation 13:38', [], ['context' => 'Translation test']);
     $test3 = $this->t('Third translation 14:25', [], ['context' => 'Translation test']);
     $test4 = $this->t('Fourtfh translation 20:39', [], ['context' => 'Translation test']);
-    $test4 = $this->t('Fifth translation 20:49', [], ['context' => 'Translation test']);
+    $test5 = $this->t('Fifth translation 20:49', [], ['context' => 'Translation test']);
+    $test6 = $this->t('Sixth translation 20:58', [], ['context' => 'Translation test']);
     $data = [
       'wid' => $wid,
       // Config.
