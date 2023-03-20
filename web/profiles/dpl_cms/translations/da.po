@@ -3,8 +3,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2023-03-20 23:39+0000\n"
-"PO-Revision-Date: 2023-03-20 23:39+0000\n"
+"POT-Creation-Date: 2023-03-20 23:45+0000\n"
+"PO-Revision-Date: 2023-03-20 23:45+0000\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
 "MIME-Version: 1.0\n"
@@ -185,6 +185,10 @@ msgstr "Syvende oversættelse 21:39"
 
 msgctxt "Translation test"
 msgid "Ninth translation 00:19"
+msgstr ""
+
+msgctxt "Translation test"
+msgid "Tenth translation 00:40"
 msgstr ""
 
 msgid "Already reserved"
