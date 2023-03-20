@@ -1062,3 +1062,8 @@ msgctxt "Translation test"
 msgid "Sixth translation 20:58"
 msgstr "Sjette oversættelse 20:58"
 
+#: 
+msgctxt "Translation test"
+msgid "Seventh translation 21:39"
+msgstr "Syvende oversættelse 21:39"
+
