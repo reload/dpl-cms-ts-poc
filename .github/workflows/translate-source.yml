@@ -23,11 +23,11 @@ jobs:
     - name: Setup site
       run: task ci:reset
     - name: Scan translations
-      run: LANGUAGE=da task translations:build
+      run: LANGUAGE=da task translations:build:source
     - name: Commit translations
       uses: stefanzweifel/git-auto-commit-action@v4
       with:
-        file_pattern: './web/profiles/dpl_cms/translations/*.po'
+        file_pattern: './web/profiles/dpl_cms/translation_source/*.po'
         commit_message: New translations were found
     - name: Publish translations to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
