@@ -10,65 +10,79 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-msgid "React DDB Library"
-msgstr ""
-
-msgid "Library is present"
-msgstr ""
-
-msgid "DDB React library is missing (@dir)"
-msgstr ""
-
-msgid "configured"
-msgstr ""
-
-msgid "This configuration form is for administering proxy url generation."
-msgstr ""
-
-msgid "Proxy server URL prefix"
+msgid "Domain"
 msgstr ""
 
 msgid ""
-"The prefix to use for proxy server URLs. This is the part of the URL\n"
-"        that comes before the hostname"
+"Specify the Tag Integration domain if the JavaScript-file should be loaded "
+"from the Mapp server."
 msgstr ""
 
-msgid "Hostnames"
-msgstr ""
-
-msgid "Host configuration"
-msgstr ""
-
-msgid "Hostname"
-msgstr ""
-
-msgid "Replacement %configured"
-msgstr ""
-
-msgid "Regular expression"
+msgid "Id"
 msgstr ""
 
 msgid ""
-"Use regular expression to substitut parts of the url, e.g. \"<em>%regex</"
-"em>\"."
+"Enter your Tag Integration customer ID if the JavaScript-file should be "
+"loaded from the Mapp server."
 msgstr ""
 
-msgid "Replacement"
+msgid "Library token"
 msgstr ""
 
-msgid "The replacement value for the regular expression."
+msgid "Token available"
 msgstr ""
 
-msgid "Do not use proxy prefix for this hostname"
+msgid ""
+"No valid token available. <a href=\":url\">Run cron</a> to retrieve a new "
+"token."
 msgstr ""
 
-msgid "Remove this"
+msgid "Search button"
 msgstr ""
 
-msgid "Add one more"
+msgid "Search header input"
 msgstr ""
 
-msgid "Submit"
+msgid "Animated series"
+msgstr ""
+
+msgid "Audio books"
+msgstr ""
+
+msgid "Books"
+msgstr ""
+
+msgid "E-books"
+msgstr ""
+
+msgid "Movies"
+msgstr ""
+
+msgid "Games"
+msgstr ""
+
+msgid "Music"
+msgstr ""
+
+msgid "et al."
+msgstr ""
+
+msgid "in"
+msgstr ""
+
+msgid "Start typing in order to search"
+msgstr ""
+
+msgid "Loading"
+msgstr ""
+
+msgid "Author"
+msgstr ""
+
+msgid "Topic"
+msgstr ""
+
+msgid "Work"
 msgstr ""
 
 msgid "+ more filters"
@@ -242,9 +256,6 @@ msgstr ""
 msgid "Editions"
 msgstr ""
 
-msgid "et al."
-msgstr ""
-
 msgid "Fiction/nonfiction"
 msgstr ""
 
@@ -315,9 +326,6 @@ msgid "Libraries have the material"
 msgstr ""
 
 msgid "Listen online"
-msgstr ""
-
-msgid "Loading"
 msgstr ""
 
 msgid "Log in to read the review"
@@ -522,46 +530,119 @@ msgstr ""
 msgid "You have borrowed"
 msgstr ""
 
-msgid "Search button"
+msgid "Configuration file"
 msgstr ""
 
-msgid "Search header input"
+msgid "Select a configuration file in YAML format to upload."
 msgstr ""
 
-msgid "Animated series"
+msgid "Upload"
 msgstr ""
 
-msgid "Audio books"
+msgid "Unable to handle the uploaded file"
 msgstr ""
 
-msgid "Books"
+msgid "Unable to parse YAML file: %reason"
 msgstr ""
 
-msgid "E-books"
+msgid "Installed modules: %modules_list"
 msgstr ""
 
-msgid "Movies"
+msgid "Uninstalled modules: %modules_list"
 msgstr ""
 
-msgid "Games"
+msgid "Adgangsplatformen"
 msgstr ""
 
-msgid "Music"
+msgid "Integration configured"
 msgstr ""
 
-msgid "in"
+msgid "Authorization endpoint"
 msgstr ""
 
-msgid "Start typing in order to search"
+msgid "Token endpoint"
 msgstr ""
 
-msgid "Author"
+msgid "UserInfo endpoint"
 msgstr ""
 
-msgid "Topic"
+msgid "Logout endpoint"
 msgstr ""
 
-msgid "Work"
+msgid "Agency ID"
+msgstr ""
+
+msgid "React DDB Library"
+msgstr ""
+
+msgid "Library is present"
+msgstr ""
+
+msgid "DDB React library is missing (@dir)"
+msgstr ""
+
+msgid "configured"
+msgstr ""
+
+msgid "This configuration form is for administering proxy url generation."
+msgstr ""
+
+msgid "Proxy server URL prefix"
+msgstr ""
+
+msgid ""
+"The prefix to use for proxy server URLs. This is the part of the URL\n"
+"        that comes before the hostname"
+msgstr ""
+
+msgid "Hostnames"
+msgstr ""
+
+msgid "Host configuration"
+msgstr ""
+
+msgid "Hostname"
+msgstr ""
+
+msgid "Replacement %configured"
+msgstr ""
+
+msgid "Regular expression"
+msgstr ""
+
+msgid ""
+"Use regular expression to substitut parts of the url, e.g. \"<em>%regex</"
+"em>\"."
+msgstr ""
+
+msgid "Replacement"
+msgstr ""
+
+msgid "The replacement value for the regular expression."
+msgstr ""
+
+msgid "Do not use proxy prefix for this hostname"
+msgstr ""
+
+msgid "Remove this"
+msgstr ""
+
+msgid "Add one more"
+msgstr ""
+
+msgid "Submit"
+msgstr ""
+
+msgid "Basic settings"
+msgstr ""
+
+msgid "FBS service url"
+msgstr ""
+
+msgid "The url \"%url\" is not a valid URL."
+msgstr ""
+
+msgid "Publizon service url"
 msgstr ""
 
 msgid "Reservations"
@@ -618,146 +699,19 @@ msgid ""
 "Selected branches will not be available as pickup locations for reservations."
 msgstr ""
 
-msgid "The url \"%url\" is not a valid URL."
-msgstr ""
-
-msgid "Configuration file"
-msgstr ""
-
-msgid "Select a configuration file in YAML format to upload."
-msgstr ""
-
-msgid "Upload"
-msgstr ""
-
-msgid "Unable to handle the uploaded file"
-msgstr ""
-
-msgid "Unable to parse YAML file: %reason"
-msgstr ""
-
-msgid "Installed modules: %modules_list"
-msgstr ""
-
-msgid "Uninstalled modules: %modules_list"
-msgstr ""
-
-msgid "Basic settings"
-msgstr ""
-
-msgid "FBS service url"
-msgstr ""
-
-msgid "Publizon service url"
-msgstr ""
-
-msgid "Domain"
-msgstr ""
-
-msgid ""
-"Specify the Tag Integration domain if the JavaScript-file should be loaded "
-"from the Mapp server."
-msgstr ""
-
-msgid "Id"
-msgstr ""
-
-msgid ""
-"Enter your Tag Integration customer ID if the JavaScript-file should be "
-"loaded from the Mapp server."
-msgstr ""
-
-msgid "Library token"
-msgstr ""
-
-msgid "Token available"
-msgstr ""
-
-msgid ""
-"No valid token available. <a href=\":url\">Run cron</a> to retrieve a new "
-"token."
-msgstr ""
-
-msgid "Authorization endpoint"
-msgstr ""
-
-msgid "Token endpoint"
-msgstr ""
-
-msgid "UserInfo endpoint"
-msgstr ""
-
-msgid "Logout endpoint"
-msgstr ""
-
-msgid "Agency ID"
-msgstr ""
-
-msgid "Adgangsplatformen"
-msgstr ""
-
-msgid "Integration configured"
+msgid "Get campaign matching search result facets"
 msgstr ""
 
 msgid "Generate proxy url"
 msgstr ""
 
-msgid "Get campaign matching search result facets"
+msgid "Mapp Intelligence"
 msgstr ""
 
-msgid "DPL React User Token"
+msgid "Integration with Mapp Intelligence to track site usage."
 msgstr ""
 
-msgid "DDB React"
-msgstr ""
-
-msgid ""
-"General handling of importing and using the DDB react components as libraries"
-msgstr ""
-
-msgid "DPL Url Proxy"
-msgstr ""
-
-msgid "Module for generating specially formatted external urls"
-msgstr ""
-
-msgid "Configure proxy urls"
-msgstr ""
-
-msgid "DPL React Apps"
-msgstr ""
-
-msgid "For integration of dpl_react apps on the site."
-msgstr ""
-
-msgid "Library Agency"
-msgstr ""
-
-msgid "General Settings"
-msgstr ""
-
-msgid "DPL Library Agency"
-msgstr ""
-
-msgid "Module for handling library agency configuration and functionality"
-msgstr ""
-
-msgid "Upload configuration"
-msgstr ""
-
-msgid "Configuration Import"
-msgstr ""
-
-msgid "Import configuration from YAML files."
-msgstr ""
-
-msgid "FBS settings"
-msgstr ""
-
-msgid "DPL FBS"
-msgstr ""
-
-msgid "Handle FBS configuration"
+msgid "Mapp Intelligence settings"
 msgstr ""
 
 msgid "dpl_campaign"
@@ -768,22 +722,16 @@ msgid ""
 "Dpl React Apps"
 msgstr ""
 
-msgid "Publizon settings"
+msgid "DPL Library Token"
 msgstr ""
 
-msgid "DPL Publizon"
+msgid "Handles fetching and storage of a library token"
 msgstr ""
 
-msgid "Handle publizon configuration"
+msgid "DPL React Apps"
 msgstr ""
 
-msgid "Mapp Intelligence settings"
-msgstr ""
-
-msgid "Mapp Intelligence"
-msgstr ""
-
-msgid "Integration with Mapp Intelligence to track site usage."
+msgid "For integration of dpl_react apps on the site."
 msgstr ""
 
 msgid "Example content for DPL CMS"
@@ -792,10 +740,13 @@ msgstr ""
 msgid "Provides example content for demo sites."
 msgstr ""
 
-msgid "DPL Library Token"
+msgid "Configuration Import"
 msgstr ""
 
-msgid "Handles fetching and storage of a library token"
+msgid "Import configuration from YAML files."
+msgstr ""
+
+msgid "Upload configuration"
 msgstr ""
 
 msgid "DPL Login"
@@ -808,6 +759,55 @@ msgid "Dpl Login Logout Route"
 msgstr ""
 
 msgid "Login via Adgangsplatformen"
+msgstr ""
+
+msgid "DPL React User Token"
+msgstr ""
+
+msgid "DDB React"
+msgstr ""
+
+msgid ""
+"General handling of importing and using the DDB react components as libraries"
+msgstr ""
+
+msgid "Configure proxy urls"
+msgstr ""
+
+msgid "DPL Url Proxy"
+msgstr ""
+
+msgid "Module for generating specially formatted external urls"
+msgstr ""
+
+msgid "DPL FBS"
+msgstr ""
+
+msgid "Handle FBS configuration"
+msgstr ""
+
+msgid "FBS settings"
+msgstr ""
+
+msgid "Publizon settings"
+msgstr ""
+
+msgid "DPL Publizon"
+msgstr ""
+
+msgid "Handle publizon configuration"
+msgstr ""
+
+msgid "DPL Library Agency"
+msgstr ""
+
+msgid "Module for handling library agency configuration and functionality"
+msgstr ""
+
+msgid "Library Agency"
+msgstr ""
+
+msgid "General Settings"
 msgstr ""
 
 msgid "Skip to main content"
