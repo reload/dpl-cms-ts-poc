@@ -1,1039 +1,821 @@
+# Danish translation of DPL CMS
+#
 msgid ""
 msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2023-03-20 10:23+0000\n"
+"PO-Revision-Date: 2023-03-20 10:23+0000\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: POEditor.com\n"
-"Project-Id-Version: dpl-cms POC\n"
-"Language: da\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: 
 msgid "React DDB Library"
 msgstr "Hej Mikkel!"
 
-#: 
 msgid "Library is present"
 msgstr ""
 
-#: 
 msgid "DDB React library is missing (@dir)"
 msgstr ""
 
-#: 
 msgid "configured"
 msgstr ""
 
-#: 
 msgid "This configuration form is for administering proxy url generation."
 msgstr ""
 
-#: 
 msgid "Proxy server URL prefix"
 msgstr ""
 
-#: 
-msgid "The prefix to use for proxy server URLs. This is the part of the URL\n"
+msgid ""
+"The prefix to use for proxy server URLs. This is the part of the "
+"URL\n"
 "        that comes before the hostname"
 msgstr ""
 
-#: 
 msgid "Hostnames"
 msgstr ""
 
-#: 
 msgid "Host configuration"
 msgstr ""
 
-#: 
 msgid "Hostname"
 msgstr "Værtsnavn"
 
-#: 
 msgid "Replacement %configured"
 msgstr ""
 
-#: 
 msgid "Regular expression"
 msgstr "Regulært udtryk"
 
-#: 
-msgid "Use regular expression to substitut parts of the url, e.g. \"<em>%regex</em>\"."
+msgid ""
+"Use regular expression to substitut parts of the url, e.g. "
+"\"<em>%regex</em>\"."
 msgstr ""
 
-#: 
 msgid "Replacement"
 msgstr ""
 
-#: 
 msgid "The replacement value for the regular expression."
 msgstr ""
 
-#: 
 msgid "Do not use proxy prefix for this hostname"
 msgstr ""
 
-#: 
 msgid "Remove this"
 msgstr ""
 
-#: 
 msgid "Add one more"
 msgstr ""
 
-#: 
 msgid "Submit"
 msgstr ""
 
-#: 
 msgid "+ more filters"
 msgstr ""
 
-#: 
 msgid "Available"
 msgstr ""
 
-#: 
 msgid "By"
 msgstr ""
 
-#: 
 msgid "Clear all"
 msgstr ""
 
-#: 
 msgid "et. al."
 msgstr ""
 
-#: 
 msgid "Access types"
 msgstr ""
 
-#: 
 msgid "Close facet browser modal"
 msgstr ""
 
-#: 
 msgid "Modal for facet browser"
 msgstr ""
 
-#: 
 msgid "Children or adults"
 msgstr ""
 
-#: 
 msgid "Creators"
 msgstr ""
 
-#: 
 msgid "Fiction or non-fiction"
 msgstr ""
 
-#: 
 msgid "Genre and form"
 msgstr ""
 
-#: 
 msgid "Main languages"
 msgstr ""
 
-#: 
 msgid "Material types"
 msgstr ""
 
-#: 
 msgid "Subjects"
 msgstr ""
 
-#: 
 msgid "Work types"
 msgstr ""
 
-#: 
 msgid "Filter list"
 msgstr ""
 
-#: 
 msgid "In series"
 msgstr ""
 
-#: 
 msgid "Nr."
 msgstr ""
 
-#: 
 msgid "out of"
 msgstr ""
 
-#: 
 msgid "Showing @itemsShown out of @hitcount results"
 msgstr ""
 
-#: 
 msgid "results"
 msgstr ""
 
-#: 
 msgid "Show more"
 msgstr ""
 
-#: 
 msgid "Show results"
 msgstr ""
 
-#: 
 msgid "Showing results for"
 msgstr ""
 
-#: 
 msgid "Showing"
 msgstr ""
 
-#: 
 msgid "Unavailable"
 msgstr ""
 
-#: 
-msgid "Already reserved"
-msgstr ""
-
-#: 
-msgid "Approve reservation"
-msgstr ""
-
-#: 
-msgid "Audience"
-msgstr ""
-
-#: 
-msgid "The review is not accessible"
-msgstr ""
-
-#: 
-msgid "Can't be reserved"
-msgstr ""
-
-#: 
-msgid "Cannot view review"
-msgstr ""
-
-#: 
-msgid "Choose one"
-msgstr ""
-
-#: 
-msgid "Close"
-msgstr "Luk"
-
-#: 
-msgid "Contributors"
-msgstr ""
-
-#: 
-msgid "copies there is"
-msgstr ""
-
-#: 
-msgid "Creators are missing"
-msgstr ""
-
-#: 
-msgid "Days"
-msgstr ""
-
-#: 
-msgid "Description"
-msgstr "Beskrivelse"
-
-#: 
-msgid "Edition"
-msgstr ""
-
-#: 
-msgid "Edition year"
-msgstr ""
-
-#: 
-msgid "Unknown"
-msgstr ""
-
-#: 
-msgid "Isbn"
-msgstr ""
-
-#: 
-msgid "Language"
-msgstr "Sprog"
-
-#: 
-msgid "Original title"
-msgstr ""
-
-#: 
-msgid "Play time"
-msgstr ""
-
-#: 
-msgid "Publisher"
-msgstr ""
-
-#: 
-msgid "Scope"
-msgstr ""
-
-#: 
-msgid "Type"
-msgstr "Type"
-
-#: 
-msgid "Details of the material"
-msgstr ""
-
-#: 
-msgid "Details"
-msgstr ""
-
-#: 
-msgid "Editions"
-msgstr ""
-
-#: 
-msgid "et al."
-msgstr ""
-
-#: 
-msgid "Fiction/nonfiction"
-msgstr ""
-
-#: 
-msgid "Find on bookshelf"
-msgstr ""
-
-#: 
-msgid "Find on shelf expand button explanation"
-msgstr ""
-
-#: 
-msgid "Close reservation modal"
-msgstr ""
-
-#: 
-msgid "Find it on shelf"
-msgstr ""
-
-#: 
-msgid "Home"
-msgstr ""
-
-#: 
-msgid "Material"
-msgstr ""
-
-#: 
-msgid "No location for find on shelf specified"
-msgstr ""
-
-#: 
-msgid "Find on shelf modal periodical dropdown - choose edition/volume"
-msgstr ""
-
-#: 
-msgid "Choose periodical year"
-msgstr ""
-
-#: 
-msgid "Reservation modal screen reader description"
-msgstr ""
-
-#: 
-msgid "Genre"
-msgstr ""
-
-#: 
-msgid "Get online"
-msgstr ""
-
-#: 
-msgid "Go to @source"
-msgstr ""
-
-#: 
-msgid "Have no interest after"
-msgstr ""
-
-#: 
-msgid "hearts"
-msgstr ""
-
-#: 
-msgid "Identifiers"
-msgstr ""
-
-#: 
-msgid "In the same series"
-msgstr ""
-
-#: 
-msgid "in the series"
-msgstr ""
-
-#: 
-msgid "Close infomedia modal"
-msgstr ""
-
-#: 
-msgid "Infomedia modal screen reader description"
-msgstr ""
-
-#: 
-msgid "ISBN"
-msgstr ""
-
-#: 
-msgid "Libraries have the material"
-msgstr ""
-
-#: 
-msgid "Listen online"
-msgstr ""
-
-#: 
-msgid "Loading"
-msgstr ""
-
-#: 
-msgid "Log in to read the review"
-msgstr ""
-
-#: 
-msgid "All editions"
-msgstr ""
-
-#: 
-msgid "Skip the queue - The material is available in another edition - @title @authorAndYear - reservations: @reservations"
-msgstr ""
-
-#: 
-msgid "Material is included"
-msgstr ""
-
-#: 
-msgid "Material is loaned out"
-msgstr ""
-
-#: 
-msgid "1 copy has been reserved"
-msgstr ""
-
-#: 
-msgid "@count copies have been reserved"
-msgstr ""
-
-#: 
-msgid "We have 1 copy of the material in stock"
-msgstr ""
-
-#: 
-msgid "We have @count copies of the material in stock"
-msgstr ""
-
-#: 
-msgid "Missing data"
-msgstr ""
-
-#: 
-msgid "If you want to receive notifications by e-mail, you can enter or change the desired e-mail here."
-msgstr ""
-
-#: 
-msgid "Change email"
-msgstr ""
-
-#: 
-msgid "Type in email"
-msgstr ""
-
-#: 
-msgid "Email"
-msgstr "E-mail"
-
-#: 
-msgid "Set date for when your interest for the material will expire."
-msgstr ""
-
-#: 
-msgid "Change interest deadline"
-msgstr ""
-
-#: 
-msgid "Decide at which library you want to pickup the material."
-msgstr ""
-
-#: 
-msgid "Choose pickup library"
-msgstr ""
-
-#: 
-msgid "If you want to receive SMS, you can enter or change your phone number here."
-msgstr ""
-
-#: 
-msgid "Change phone number"
-msgstr ""
-
-#: 
-msgid "Input phone number"
-msgstr ""
-
-#: 
-msgid "Phone"
-msgstr ""
-
-#: 
-msgid "You are number @number in the queue"
-msgstr ""
-
-#: 
-msgid "Ok"
-msgstr ""
-
-#: 
-msgid "1 month"
-msgstr ""
-
-#: 
-msgid "1 year"
-msgstr ""
-
-#: 
-msgid "You have borrowed @count out of @limit possible e-books this month"
-msgstr ""
-
-#: 
-msgid "Order digital copy button loading text"
-msgstr ""
-
-#: 
-msgid "Order digital copy"
-msgstr ""
-
-#: 
-msgid "Order digital copy description text"
-msgstr ""
-
-#: 
-msgid "An error occurred while ordering the digital copy. Please try again later."
-msgstr ""
-
-#: 
-msgid "Error ordering digital copy"
-msgstr ""
-
-#: 
-msgid "Close Order digital copy modal"
-msgstr ""
-
-#: 
-msgid "Modal for Order digital copy"
-msgstr ""
-
-#: 
-msgid "The digital copy has been ordered. You will receive an email when the digital copy is ready."
-msgstr ""
-
-#: 
-msgid "Digital copy ordered"
-msgstr ""
-
-#: 
-msgid "Year"
-msgstr ""
-
-#: 
-msgid "Week"
-msgstr ""
-
-#: 
-msgid "Pick up at"
-msgstr ""
-
-#: 
-msgid "possible"
-msgstr ""
-
-#: 
-msgid "in queue"
-msgstr ""
-
-#: 
-msgid "Rating of this item is"
-msgstr ""
-
-#: 
-msgid "Read article"
-msgstr ""
-
-#: 
-msgid "Receive mail when the material is ready"
-msgstr ""
-
-#: 
-msgid "Receive SMS when the material is ready"
-msgstr ""
-
-#: 
-msgid "Reservation error"
-msgstr ""
-
-#: 
-msgid "modal for reservation"
-msgstr ""
-
-#: 
-msgid "is reserved for you"
-msgstr ""
-
-#: 
-msgid "The material is available and is now reserved for you!"
-msgstr ""
-
-#: 
-msgid "Material is available and you will get a message when it is ready for pickup - pickup at @branch"
-msgstr ""
-
-#: 
-msgid "reservations for this material"
-msgstr ""
-
-#: 
-msgid "Reserve book"
-msgstr ""
-
-#: 
-msgid "Reserve"
-msgstr ""
-
-#: 
-msgid "Reviews"
-msgstr ""
-
-#: 
-msgid "Save"
-msgstr "Gem"
-
-#: 
-msgid "See online"
-msgstr ""
-
-#: 
-msgid "Shift"
-msgstr ""
-
-#: 
-msgid "6 months"
-msgstr ""
-
-#: 
-msgid "This month"
-msgstr ""
-
-#: 
-msgid "3 months"
-msgstr ""
-
-#: 
-msgid "Try again"
-msgstr ""
-
-#: 
-msgid "2 months"
-msgstr ""
-
-#: 
-msgid "In stock:"
-msgstr ""
-
-#: 
-msgid "You have borrowed"
-msgstr ""
-
-#: 
-msgid "Search button"
-msgstr ""
-
-#: 
-msgid "Search header input"
-msgstr ""
-
-#: 
-msgid "Animated series"
-msgstr ""
-
-#: 
-msgid "Audio books"
-msgstr ""
-
-#: 
-msgid "Books"
-msgstr ""
-
-#: 
-msgid "E-books"
-msgstr ""
-
-#: 
-msgid "Movies"
-msgstr ""
-
-#: 
-msgid "Games"
-msgstr ""
-
-#: 
-msgid "Music"
-msgstr ""
-
-#: 
-msgid "in"
-msgstr ""
-
-#: 
-msgid "Start typing in order to search"
-msgstr ""
-
-#: 
-msgid "Author"
-msgstr ""
-
-#: 
-msgid "Topic"
-msgstr ""
-
-#: 
-msgid "Work"
-msgstr ""
-
-#: 
-msgid "Reservations"
-msgstr ""
-
-#: 
-msgid "Disable SMS notifications for reservations"
-msgstr ""
-
-#: 
-msgid "If checked, SMS notifications for patrons will be disabled."
-msgstr ""
-
-#: 
-msgid "Pause reservation link"
-msgstr ""
-
-#: 
-msgid "The link with infomation about reservations"
-msgstr ""
-
-#: 
-msgid "Start date"
-msgstr ""
-
-#: 
-msgid "Pause reservation start date"
-msgstr ""
-
-#: 
-msgid "Thresholds"
-msgstr ""
-
-#: 
-msgid "Set thresholds"
-msgstr ""
-
-#: 
-msgid "Excluded branches"
-msgstr ""
-
-#: 
-msgid "Select which branches should be excluded in different parts of the system."
-msgstr ""
-
-#: 
-msgid "Search results"
-msgstr ""
-
-#: 
-msgid "Holdings belonging to the selected branches will not be shown in search results."
-msgstr ""
-
-#: 
-msgid "Availability"
-msgstr ""
-
-#: 
-msgid "Holdings belonging to the selected branches will not considered when showing work availability."
-msgstr ""
-
-#: 
-msgid "Selected branches will not be available as pickup locations for reservations."
-msgstr ""
-
-#: 
-msgid "The url \"%url\" is not a valid URL."
-msgstr ""
-
-#: 
-msgid "Configuration file"
-msgstr ""
-
-#: 
-msgid "Select a configuration file in YAML format to upload."
-msgstr ""
-
-#: 
-msgid "Upload"
-msgstr ""
-
-#: 
-msgid "Unable to handle the uploaded file"
-msgstr ""
-
-#: 
-msgid "Unable to parse YAML file: %reason"
-msgstr ""
-
-#: 
-msgid "Installed modules: %modules_list"
-msgstr ""
-
-#: 
-msgid "Uninstalled modules: %modules_list"
-msgstr ""
-
-#: 
-msgid "Basic settings"
-msgstr ""
-
-#: 
-msgid "FBS service url"
-msgstr ""
-
-#: 
-msgid "Publizon service url"
-msgstr ""
-
-#: 
-msgid "Domain"
-msgstr "Domæne"
-
-#: 
-msgid "Specify the Tag Integration domain if the JavaScript-file should be loaded from the Mapp server."
-msgstr ""
-
-#: 
-msgid "Id"
-msgstr "Id"
-
-#: 
-msgid "Enter your Tag Integration customer ID if the JavaScript-file should be loaded from the Mapp server."
-msgstr ""
-
-#: 
-msgid "Library token"
-msgstr ""
-
-#: 
-msgid "Token available"
-msgstr ""
-
-#: 
-msgid "No valid token available. <a href=\":url\">Run cron</a> to retrieve a new token."
-msgstr ""
-
-#: 
-msgid "Authorization endpoint"
-msgstr ""
-
-#: 
-msgid "Token endpoint"
-msgstr ""
-
-#: 
-msgid "UserInfo endpoint"
-msgstr ""
-
-#: 
-msgid "Logout endpoint"
-msgstr ""
-
-#: 
-msgid "Agency ID"
-msgstr ""
-
-#: 
-msgid "Adgangsplatformen"
-msgstr ""
-
-#: 
-msgid "Integration configured"
-msgstr ""
-
-#: 
-msgid "Generate proxy url"
-msgstr ""
-
-#: 
-msgid "Get campaign matching search result facets"
-msgstr ""
-
-#: 
-msgid "DPL React User Token"
-msgstr ""
-
-#: 
-msgid "DDB React"
-msgstr ""
-
-#: 
-msgid "General handling of importing and using the DDB react components as libraries"
-msgstr ""
-
-#: 
-msgid "DPL Url Proxy"
-msgstr ""
-
-#: 
-msgid "Module for generating specially formatted external urls"
-msgstr ""
-
-#: 
-msgid "Configure proxy urls"
-msgstr ""
-
-#: 
-msgid "DPL React Apps"
-msgstr ""
-
-#: 
-msgid "For integration of dpl_react apps on the site."
-msgstr ""
-
-#: 
-msgid "Library Agency"
-msgstr ""
-
-#: 
-msgid "General Settings"
-msgstr ""
-
-#: 
-msgid "DPL Library Agency"
-msgstr ""
-
-#: 
-msgid "Module for handling library agency configuration and functionality"
-msgstr ""
-
-#: 
-msgid "Upload configuration"
-msgstr ""
-
-#: 
-msgid "Configuration Import"
-msgstr ""
-
-#: 
-msgid "Import configuration from YAML files."
-msgstr ""
-
-#: 
-msgid "FBS settings"
-msgstr ""
-
-#: 
-msgid "DPL FBS"
-msgstr ""
-
-#: 
-msgid "Handle FBS configuration"
-msgstr ""
-
-#: 
-msgid "dpl_campaign"
-msgstr ""
-
-#: 
-msgid "A module that deliveres possibility for campaign CRUD and integration with Dpl React Apps"
-msgstr ""
-
-#: 
-msgid "Publizon settings"
-msgstr ""
-
-#: 
-msgid "DPL Publizon"
-msgstr ""
-
-#: 
-msgid "Handle publizon configuration"
-msgstr ""
-
-#: 
-msgid "Mapp Intelligence settings"
-msgstr ""
-
-#: 
-msgid "Mapp Intelligence"
-msgstr ""
-
-#: 
-msgid "Integration with Mapp Intelligence to track site usage."
-msgstr ""
-
-#: 
-msgid "Example content for DPL CMS"
-msgstr ""
-
-#: 
-msgid "Provides example content for demo sites."
-msgstr ""
-
-#: 
-msgid "DPL Library Token"
-msgstr ""
-
-#: 
-msgid "Handles fetching and storage of a library token"
-msgstr ""
-
-#: 
-msgid "DPL Login"
-msgstr ""
-
-#: 
-msgid "Handles authentication/login via Adgangsplatformen"
-msgstr ""
-
-#: 
-msgid "Dpl Login Logout Route"
-msgstr ""
-
-#: 
-msgid "Login via Adgangsplatformen"
-msgstr ""
-
-#: 
-msgid "Skip to main content"
-msgstr ""
-
-#: 
-msgid "Novel"
-msgstr ""
-
-#: 
-msgid "Custom theme for the Danish Public Libraries"
-msgstr ""
-
-#: 
 msgctxt "Translation test"
 msgid "Here is a new translation 11:13"
 msgstr "Her er en ny oversættelse 11:13"
+
+msgid "Already reserved"
+msgstr ""
+
+msgid "Approve reservation"
+msgstr ""
+
+msgid "Audience"
+msgstr ""
+
+msgid "The review is not accessible"
+msgstr ""
+
+msgid "Can't be reserved"
+msgstr ""
+
+msgid "Cannot view review"
+msgstr ""
+
+msgid "Choose one"
+msgstr ""
+
+msgid "Close"
+msgstr "Luk"
+
+msgid "Contributors"
+msgstr ""
+
+msgid "copies there is"
+msgstr ""
+
+msgid "Creators are missing"
+msgstr ""
+
+msgid "Days"
+msgstr ""
+
+msgid "Description"
+msgstr "Beskrivelse"
+
+msgid "Edition"
+msgstr ""
+
+msgid "Edition year"
+msgstr ""
+
+msgid "Unknown"
+msgstr ""
+
+msgid "Isbn"
+msgstr ""
+
+msgid "Language"
+msgstr "Sprog"
+
+msgid "Original title"
+msgstr ""
+
+msgid "Play time"
+msgstr ""
+
+msgid "Publisher"
+msgstr ""
+
+msgid "Scope"
+msgstr ""
+
+msgid "Type"
+msgstr "Type"
+
+msgid "Details of the material"
+msgstr ""
+
+msgid "Details"
+msgstr ""
+
+msgid "Editions"
+msgstr ""
+
+msgid "et al."
+msgstr ""
+
+msgid "Fiction/nonfiction"
+msgstr ""
+
+msgid "Find on bookshelf"
+msgstr ""
+
+msgid "Find on shelf expand button explanation"
+msgstr ""
+
+msgid "Close reservation modal"
+msgstr ""
+
+msgid "Find it on shelf"
+msgstr ""
+
+msgid "Home"
+msgstr ""
+
+msgid "Material"
+msgstr ""
+
+msgid "No location for find on shelf specified"
+msgstr ""
+
+msgid "Find on shelf modal periodical dropdown - choose edition/volume"
+msgstr ""
+
+msgid "Choose periodical year"
+msgstr ""
+
+msgid "Reservation modal screen reader description"
+msgstr ""
+
+msgid "Genre"
+msgstr ""
+
+msgid "Get online"
+msgstr ""
+
+msgid "Go to @source"
+msgstr ""
+
+msgid "Have no interest after"
+msgstr ""
+
+msgid "hearts"
+msgstr ""
+
+msgid "Identifiers"
+msgstr ""
+
+msgid "In the same series"
+msgstr ""
+
+msgid "in the series"
+msgstr ""
+
+msgid "Close infomedia modal"
+msgstr ""
+
+msgid "Infomedia modal screen reader description"
+msgstr ""
+
+msgid "ISBN"
+msgstr ""
+
+msgid "Libraries have the material"
+msgstr ""
+
+msgid "Listen online"
+msgstr ""
+
+msgid "Loading"
+msgstr ""
+
+msgid "Log in to read the review"
+msgstr ""
+
+msgid "All editions"
+msgstr ""
+
+msgid ""
+"Skip the queue - The material is available in another edition - @title "
+"@authorAndYear - reservations: @reservations"
+msgstr ""
+
+msgid "Material is included"
+msgstr ""
+
+msgid "Material is loaned out"
+msgstr ""
+
+msgid "1 copy has been reserved"
+msgstr ""
+
+msgid "@count copies have been reserved"
+msgstr ""
+
+msgid "We have 1 copy of the material in stock"
+msgstr ""
+
+msgid "We have @count copies of the material in stock"
+msgstr ""
+
+msgid "Missing data"
+msgstr ""
+
+msgid ""
+"If you want to receive notifications by e-mail, you can enter or "
+"change the desired e-mail here."
+msgstr ""
+
+msgid "Change email"
+msgstr ""
+
+msgid "Type in email"
+msgstr ""
+
+msgid "Email"
+msgstr "E-mail"
+
+msgid "Set date for when your interest for the material will expire."
+msgstr ""
+
+msgid "Change interest deadline"
+msgstr ""
+
+msgid "Decide at which library you want to pickup the material."
+msgstr ""
+
+msgid "Choose pickup library"
+msgstr ""
+
+msgid ""
+"If you want to receive SMS, you can enter or change your phone number "
+"here."
+msgstr ""
+
+msgid "Change phone number"
+msgstr ""
+
+msgid "Input phone number"
+msgstr ""
+
+msgid "Phone"
+msgstr ""
+
+msgid "You are number @number in the queue"
+msgstr ""
+
+msgid "Ok"
+msgstr ""
+
+msgid "1 month"
+msgstr ""
+
+msgid "1 year"
+msgstr ""
+
+msgid "You have borrowed @count out of @limit possible e-books this month"
+msgstr ""
+
+msgid "Order digital copy button loading text"
+msgstr ""
+
+msgid "Order digital copy"
+msgstr ""
+
+msgid "Order digital copy description text"
+msgstr ""
+
+msgid ""
+"An error occurred while ordering the digital copy. Please try again "
+"later."
+msgstr ""
+
+msgid "Error ordering digital copy"
+msgstr ""
+
+msgid "Close Order digital copy modal"
+msgstr ""
+
+msgid "Modal for Order digital copy"
+msgstr ""
+
+msgid ""
+"The digital copy has been ordered. You will receive an email when the "
+"digital copy is ready."
+msgstr ""
+
+msgid "Digital copy ordered"
+msgstr ""
+
+msgid "Year"
+msgstr ""
+
+msgid "Week"
+msgstr ""
+
+msgid "Pick up at"
+msgstr ""
+
+msgid "possible"
+msgstr ""
+
+msgid "in queue"
+msgstr ""
+
+msgid "Rating of this item is"
+msgstr ""
+
+msgid "Read article"
+msgstr ""
+
+msgid "Receive mail when the material is ready"
+msgstr ""
+
+msgid "Receive SMS when the material is ready"
+msgstr ""
+
+msgid "Reservation error"
+msgstr ""
+
+msgid "modal for reservation"
+msgstr ""
+
+msgid "is reserved for you"
+msgstr ""
+
+msgid "The material is available and is now reserved for you!"
+msgstr ""
+
+msgid ""
+"Material is available and you will get a message when it is ready for "
+"pickup - pickup at @branch"
+msgstr ""
+
+msgid "reservations for this material"
+msgstr ""
+
+msgid "Reserve book"
+msgstr ""
+
+msgid "Reserve"
+msgstr ""
+
+msgid "Reviews"
+msgstr ""
+
+msgid "Save"
+msgstr "Gem"
+
+msgid "See online"
+msgstr ""
+
+msgid "Shift"
+msgstr ""
+
+msgid "6 months"
+msgstr ""
+
+msgid "This month"
+msgstr ""
+
+msgid "3 months"
+msgstr ""
+
+msgid "Try again"
+msgstr ""
+
+msgid "2 months"
+msgstr ""
+
+msgid "In stock:"
+msgstr ""
+
+msgid "You have borrowed"
+msgstr ""
+
+msgid "Search button"
+msgstr ""
+
+msgid "Search header input"
+msgstr ""
+
+msgid "Animated series"
+msgstr ""
+
+msgid "Audio books"
+msgstr ""
+
+msgid "Books"
+msgstr ""
+
+msgid "E-books"
+msgstr ""
+
+msgid "Movies"
+msgstr ""
+
+msgid "Games"
+msgstr ""
+
+msgid "Music"
+msgstr ""
+
+msgid "in"
+msgstr ""
+
+msgid "Start typing in order to search"
+msgstr ""
+
+msgid "Author"
+msgstr ""
+
+msgid "Topic"
+msgstr ""
+
+msgid "Work"
+msgstr ""
+
+msgid "Reservations"
+msgstr ""
+
+msgid "Disable SMS notifications for reservations"
+msgstr ""
+
+msgid "If checked, SMS notifications for patrons will be disabled."
+msgstr ""
+
+msgid "Pause reservation link"
+msgstr ""
+
+msgid "The link with infomation about reservations"
+msgstr ""
+
+msgid "Start date"
+msgstr ""
+
+msgid "Pause reservation start date"
+msgstr ""
+
+msgid "Thresholds"
+msgstr ""
+
+msgid "Set thresholds"
+msgstr ""
+
+msgid "Excluded branches"
+msgstr ""
+
+msgid ""
+"Select which branches should be excluded in different parts of the "
+"system."
+msgstr ""
+
+msgid "Search results"
+msgstr ""
+
+msgid ""
+"Holdings belonging to the selected branches will not be shown in "
+"search results."
+msgstr ""
+
+msgid "Availability"
+msgstr ""
+
+msgid ""
+"Holdings belonging to the selected branches will not considered when "
+"showing work availability."
+msgstr ""
+
+msgid ""
+"Selected branches will not be available as pickup locations for "
+"reservations."
+msgstr ""
+
+msgid "The url \"%url\" is not a valid URL."
+msgstr ""
+
+msgid "Configuration file"
+msgstr ""
+
+msgid "Select a configuration file in YAML format to upload."
+msgstr ""
+
+msgid "Upload"
+msgstr ""
+
+msgid "Unable to handle the uploaded file"
+msgstr ""
+
+msgid "Unable to parse YAML file: %reason"
+msgstr ""
+
+msgid "Installed modules: %modules_list"
+msgstr ""
+
+msgid "Uninstalled modules: %modules_list"
+msgstr ""
+
+msgid "Basic settings"
+msgstr ""
+
+msgid "FBS service url"
+msgstr ""
+
+msgid "Publizon service url"
+msgstr ""
+
+msgid "Domain"
+msgstr "Domæne"
+
+msgid ""
+"Specify the Tag Integration domain if the JavaScript-file should be "
+"loaded from the Mapp server."
+msgstr ""
+
+msgid "Id"
+msgstr "Id"
+
+msgid ""
+"Enter your Tag Integration customer ID if the JavaScript-file should "
+"be loaded from the Mapp server."
+msgstr ""
+
+msgid "Library token"
+msgstr ""
+
+msgid "Token available"
+msgstr ""
+
+msgid ""
+"No valid token available. <a href=\":url\">Run cron</a> to retrieve a "
+"new token."
+msgstr ""
+
+msgid "Authorization endpoint"
+msgstr ""
+
+msgid "Token endpoint"
+msgstr ""
+
+msgid "UserInfo endpoint"
+msgstr ""
+
+msgid "Logout endpoint"
+msgstr ""
+
+msgid "Agency ID"
+msgstr ""
+
+msgid "Adgangsplatformen"
+msgstr ""
+
+msgid "Integration configured"
+msgstr ""
+
+msgid "Generate proxy url"
+msgstr ""
+
+msgid "Get campaign matching search result facets"
+msgstr ""
+
+msgid "DPL React User Token"
+msgstr ""
+
+msgid "DDB React"
+msgstr ""
+
+msgid ""
+"General handling of importing and using the DDB react components as "
+"libraries"
+msgstr ""
+
+msgid "DPL Url Proxy"
+msgstr ""
+
+msgid "Module for generating specially formatted external urls"
+msgstr ""
+
+msgid "Configure proxy urls"
+msgstr ""
+
+msgid "DPL React Apps"
+msgstr ""
+
+msgid "For integration of dpl_react apps on the site."
+msgstr ""
+
+msgid "Library Agency"
+msgstr ""
+
+msgid "General Settings"
+msgstr ""
+
+msgid "DPL Library Agency"
+msgstr ""
+
+msgid "Module for handling library agency configuration and functionality"
+msgstr ""
+
+msgid "Upload configuration"
+msgstr ""
+
+msgid "Configuration Import"
+msgstr ""
+
+msgid "Import configuration from YAML files."
+msgstr ""
+
+msgid "FBS settings"
+msgstr ""
+
+msgid "DPL FBS"
+msgstr ""
+
+msgid "Handle FBS configuration"
+msgstr ""
+
+msgid "dpl_campaign"
+msgstr ""
+
+msgid ""
+"A module that deliveres possibility for campaign CRUD and integration "
+"with Dpl React Apps"
+msgstr ""
+
+msgid "Publizon settings"
+msgstr ""
+
+msgid "DPL Publizon"
+msgstr ""
+
+msgid "Handle publizon configuration"
+msgstr ""
+
+msgid "Mapp Intelligence settings"
+msgstr ""
+
+msgid "Mapp Intelligence"
+msgstr ""
+
+msgid "Integration with Mapp Intelligence to track site usage."
+msgstr ""
+
+msgid "Example content for DPL CMS"
+msgstr ""
+
+msgid "Provides example content for demo sites."
+msgstr ""
+
+msgid "DPL Library Token"
+msgstr ""
+
+msgid "Handles fetching and storage of a library token"
+msgstr ""
+
+msgid "DPL Login"
+msgstr ""
+
+msgid "Handles authentication/login via Adgangsplatformen"
+msgstr ""
+
+msgid "Dpl Login Logout Route"
+msgstr ""
+
+msgid "Login via Adgangsplatformen"
+msgstr ""
+
+msgid "Skip to main content"
+msgstr ""
+
+msgid "Novel"
+msgstr ""
+
+msgid "Custom theme for the Danish Public Libraries"
+msgstr ""
 
