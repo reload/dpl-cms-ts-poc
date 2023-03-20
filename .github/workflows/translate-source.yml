@@ -34,7 +34,7 @@ jobs:
     - name: Make Poeditor look for changes
       uses: distributhor/workflow-webhook@v2
       env:
-        webhook_url: https://api.poeditor.com/webhooks/e43dc32eaf
+        webhook_url: https://api.poeditor.com/webhooks/ed079725c1
         webhook_secret: 'xxxx'
 
   PublishToGithubPages:
