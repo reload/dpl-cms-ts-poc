@@ -1069,6 +1069,11 @@ msgstr "Syvende oversættelse 21:39"
 
 #: 
 msgctxt "Translation test"
-msgid "Eighth translation 21:50"
-msgstr "Ottende oversættelse 00:14"
+msgid "Ninth translation 00:19"
+msgstr ""
+
+#: 
+msgctxt "Translation test"
+msgid "Tenth translation 00:40"
+msgstr "Tiende oversættelse 00:40"
 
