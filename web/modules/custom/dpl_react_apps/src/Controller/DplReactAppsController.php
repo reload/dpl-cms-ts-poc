@@ -158,7 +158,7 @@ class DplReactAppsController extends ControllerBase {
   public function work(string $wid): array {
     // Translation context.
     $c = ['context' => 'Work Page'];
-    $test = $this->t('Here is a new translation 11:08', [], ['context' => 'Translation test']);
+    $test = $this->t('Here is a new translation 11:13', [], ['context' => 'Translation test']);
     $data = [
       'wid' => $wid,
       // Config.
